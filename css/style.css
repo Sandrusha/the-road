@@ -50,9 +50,12 @@ table {
 /*Custom CSS*/
 body {
     font-family: 'Neucha', cursive;
-    background-color: #dcdde1;
-    color: #353b48;
+    background-image: url("../images/bg-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #dcdde1;
     font-size: 20px;
+    line-height: 1.6;
 }
 h1 {
     text-align: center;
@@ -166,5 +169,27 @@ table > tbody > tr:first-child > th:first-child {
     }
     table {
         margin: 10px 0;
+    }
+}
+
+/*Background CSS*/
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        background-size: auto;
+        background-position: 48% 40%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+    body {
+        background-size: auto;
+        background-position: 49% 32%;
+    }
+}
+
+@media only screen and (max-width: 415px) and (orientation: portrait) {
+    body {
+        background-size: auto;
+        background-position: 49% 40%;
     }
 }
