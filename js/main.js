@@ -1,5 +1,5 @@
 //ROAD
-function Road(km, tunnels, gasStations, vehicles, limits) { //functia constructor incepe cu litera mare
+function Road(km, tunnels, gasStations, vehicles, limits) { //functie constructor
     this.km = km;
     this.tunnels = tunnels;
     this.gasStations = gasStations;
